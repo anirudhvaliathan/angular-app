@@ -1,0 +1,12 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-3"><img src="{{product['image']}}" alt="" srcset=""></div>
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <span>{{product['title']}}</span>
+            <span>{{product['description']}}</span>
+            <span>{{product['category']}}</span>
+        </div>
+        <div>{{product | json}}</div>
+    </div>
+</div>

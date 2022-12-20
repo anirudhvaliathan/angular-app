@@ -1,0 +1,10 @@
+<h2>Selection</h2>
+<div class="card-group row">
+  <div class="col-md-3" *ngFor="let category of categories">
+    <img src="https://cgu-odisha.ac.in/wp-content/uploads/2021/04/electronic-engineering-1.jpg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{category}}</h5>
+      <button (click)="onButtonClick(category)" class="btn btn-primary btn-block">More</button>
+    </div>
+  </div>
+</div>
